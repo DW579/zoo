@@ -45,7 +45,6 @@ Zoo.prototype.changeLocation = function(location) {
   this.location = location;
 };
 
-
 Zoo.prototype.close = function() {
   this.status = 'closed';
 };
